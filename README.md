@@ -1,4 +1,4 @@
-# Vue-Materialize
+# Semantic-Vue
 <p align="center"><a href="https://vuejs.org" target="_blank"><img width="100"src="https://vuejs.org/images/logo.png"></a></p>
 
 <p align="center">
@@ -13,11 +13,11 @@
 
 ## Introduction
 
-Vue-Materialize is a modern UI built with Vue (pronounced `/vjuː/`, like view), a **progressive framework** for building user interfaces, and Materialize, a CSS Framework based on material design. It is designed from the ground up to be incrementally adoptable, and can easily scale between a library and a framework depending on different use cases. It consists of an approachable core library that focuses on the view layer only, and an ecosystem of supporting libraries that helps you tackle complexity in large Single-Page Applications.
+Semantic-Vue is a modern UI built with Vue (pronounced `/vjuː/`, like view), a **progressive framework** for building user interfaces, and Semantic UI, a development framework that helps create beautiful, responsive layouts using human-friendly HTML. It is designed from the ground up to be incrementally adoptable, and can easily scale between a library and a framework depending on different use cases. It consists of an approachable core library that focuses on the view layer only, and an ecosystem of supporting libraries that helps you tackle complexity in large Single-Page Applications.
 
 #### Browser Compatibility
 
-Vue.js supports all browsers that are [ES5-compliant](http://kangax.github.io/compat-table/es5/) (IE8 and below are not supported).
+Vue.js supports all browsers that are [ES6-compliant](http://kangax.github.io/compat-table/es5/) (IE8 and below are not supported).
 
 ## Ecosystem
 
@@ -59,9 +59,15 @@ Vue.js supports all browsers that are [ES5-compliant](http://kangax.github.io/co
 [vue-rx-package]: https://npmjs.com/package/vue-rx
 [vue-devtools-package]: https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd
 
-## Issues
+## Build Setup
+``` bash
+# install dependencies
+npm install
 
-Please make sure to read the [Issue Reporting Checklist](https://github.com/vuejs/vue/blob/dev/.github/CONTRIBUTING.md#issue-reporting-guidelines) before opening an issue. Issues not conforming to the guidelines may be closed immediately.
+# serve with hot reload at http://127.0.0.1:8000/
+npm run dev
+```
+
 
 ## Changelog
 
