@@ -10,7 +10,7 @@
         </div>
       </div>
 
-    <employee v-on:delete-employee="deleteEmployee" v-on:link-employee="linkEmployee" v-for="employee in staff" :employee.sync="employee"></employee>
+    <employee v-on:delete-employee="deleteEmployee" v-on:link-employee="linkEmployee" v-for="employee in staff" :employee.sync="employee" v-bind:data="staff" v-bind:key="employee.name"></employee>
   </div>
 </template>
 

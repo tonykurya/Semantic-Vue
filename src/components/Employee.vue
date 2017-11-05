@@ -17,7 +17,7 @@
                 <div class="ui two buttons">
                   <div class="ui orange button" v-on:click="showForm">Edit</div>
                     <div class="or"></div>
-                  <div class="ui red button" v-on:click="deleteEmployee(employee)">Delete</div>
+                  <div class="ui red button" v-on:click="deleteEmployee">Delete</div>
                 </div>
               </div>  
           </div>
