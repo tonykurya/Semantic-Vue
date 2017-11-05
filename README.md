@@ -61,6 +61,12 @@ Vue.js supports all browsers that are [ES6-compliant](http://kangax.github.io/co
 
 ## Build Setup
 ``` bash
+# clone the repository
+git clone https://github.com/tonykurya/Semantic-Vue.git
+
+# change directory
+cd Semantic-Vue
+
 # install dependencies
 npm install
 
